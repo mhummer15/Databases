@@ -5,7 +5,7 @@
 <?php
 $db_host = 'localhost';
 $db_user = 'mhummer';
-$db_pwd = 'csAgan22';
+$db_pwd = '******';
 
 $database = 'db_project';
 $table = 'bjj_analysis';

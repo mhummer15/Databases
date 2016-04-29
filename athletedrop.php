@@ -1,5 +1,5 @@
 <?php
-mysql_connect('localhost', 'root', 'csAgan22');
+mysql_connect('localhost', 'root', '*****');
 mysql_select_db('db_project');
 
 $sql  = "SELECT DISTINCT Athletes FROM bjj_analysis";

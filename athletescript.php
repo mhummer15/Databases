@@ -9,7 +9,7 @@
 		</p>";
 	$db_host = 'localhost';
 	$db_user = 'mhummer';
-	$db_pwd = 'csAgan22';
+	$db_pwd = '*****';
 
 	$database = 'db_project';
 	if (!mysql_connect($db_host, $db_user, $db_pwd))
