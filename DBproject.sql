@@ -1,0 +1,300 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10deb1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 25, 2016 at 02:41 AM
+-- Server version: 5.5.46-0ubuntu0.14.04.2
+-- PHP Version: 5.5.9-1ubuntu4.13
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `DBproject`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Bjj Analysis`
+--
+
+CREATE TABLE IF NOT EXISTS `Bjj Analysis` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Athlete(s)` text NOT NULL,
+  `Title` text NOT NULL,
+  `Link` text NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=185 ;
+
+--
+-- Dumping data for table `Bjj Analysis`
+--
+
+INSERT INTO `Bjj Analysis` (`ID`, `Athlete(s)`, `Title`, `Link`) VALUES
+(1, 'AJ Agazarm', 'AJ Agazarm', 'http://wrestlejitsu.io/2013/10/02/aj-agazarm/'),
+(2, 'AJ Agazarm, Jake Shields', 'American Jiu Jitsu Battle: Agazarm vs Shields Analysis', 'http://www.bjjheroes.com/bjj-news/american-jiu-jitsu-battle-agazarm-vs-shields-analysis'),
+(3, 'Alexander Trans', 'BJJ Analysis - Alexander Trans torreando pass vs Keenan Cornelius', 'https://www.youtube.com/watch?v=nIPbC14HEIc'),
+(4, 'Alexandre Ribeiro, Gunnar Nelson', 'Gunnar Nelson vs Xande Riberio ADCC Match study', 'https://www.youtube.com/watch?v=GUKMsFgzm6g'),
+(5, 'Andre Galvao', 'IBJJF Pan 2014 - Andre Galvao over under pass vs Leandro Lo', 'https://www.youtube.com/watch?v=XsgOMhjPPo8'),
+(6, 'Andre Galvao', 'ADCC 2013 - Andre Galvao''s pass combo vs Braulio Estima', 'https://www.youtube.com/watch?v=9SSe5irLPpw'),
+(7, 'Andre Galvao', 'It''s Science w. Andre Galvao', 'https://www.youtube.com/watch?v=vyaFNChitxw'),
+(8, 'Andre Galvao/Bernardo Faria/Rodolfo Vieira', 'Fix Your Jiu Jitsu - Ep 7 - Deep Half Guard Sweep | Bernardo Faria, Rodolfo Viera, Andre Galvao', 'https://www.youtube.com/watch?v=gIiCztg0jgM'),
+(9, 'Antonio Rodrigo Nogueira', 'UFC 153: Antonio Rodrigo Nogueira''s Go To Techniques', 'http://www.bloodyelbow.com/2012/10/9/3477808/ufc-153-big-nog-nogueira-technique'),
+(10, 'Ary Farias', 'Why Ary Farias is Awesome', 'https://thesamsaradotnet.wordpress.com/techniques/why-ary-farias-is-awesome/'),
+(11, 'Augusto Mendes', 'Augusto Tanquinho - Beating The Open Guard (Knee-Forward)', 'https://www.youtube.com/watch?v=L8RJJ9MU9ng'),
+(12, 'Baret Yoshida', 'Baret Yoshida: Crucifix Tactics - Part 1 Entries', 'https://www.youtube.com/watch?v=D3Nz_yObT5A'),
+(13, 'Baret Yoshida', 'Baret Yoshida: Crucifix Tactics - Part 2 Failed Entries & Finishes', 'https://www.youtube.com/watch?v=ExLDOxR9PNY'),
+(14, 'Baret Yoshida', 'Baret Yoshida: Crucifix Tactics - Part 3 Crucifix Control', 'https://www.youtube.com/watch?v=_GjXhAqNiO8'),
+(15, 'Baret Yoshida', 'Baret Yoshida: Crucifix Tactics - Part 4 A Compilation of Crucifixes', 'https://www.youtube.com/watch?v=ji4LEERfJ9c'),
+(16, 'Baret Yoshida/Leandro Lo', 'Ostap Analysis - Sidemount granby escape by Loshida', 'https://www.youtube.com/watch?v=HRO0alTV1dE'),
+(17, 'BJ Penn', 'BJ Penn compilation (passes)', 'https://www.youtube.com/watch?v=extNlPQ5DLc'),
+(18, 'BJ Penn', 'BJ Penn – Dope Mount', 'https://docs.google.com/document/d/1xUjKldvjSSrpmV-wQBpZRbzOTABL56a7AVOdS0sdOk0/edit'),
+(19, 'Braulio Estima', 'FEED THE LAPEL | MICROSTUDY | Braulio Estima v Murilo Santana: Defending the Tripod Over/Under Pass', 'https://www.youtube.com/watch?v=yGWv1BtVzO4'),
+(20, 'Braulio Estima', 'Braulio Estima - technical stand up sweep', 'https://www.youtube.com/watch?v=vSuLKyw0ue8'),
+(21, 'Bruno Malfacine', 'Ostap Analysis - Bruno Malfacine worm guard counter vs Joao Miyao', 'https://www.youtube.com/watch?v=uyPXLOumZLc'),
+(22, 'Bruno Malfacine', 'Bruno Malfacine - pant grip butterfly sweep', 'https://www.youtube.com/watch?v=_Q8EIS4X6HQ'),
+(23, 'Clark Gracie', 'Ostap Analysis - Clark Gracie back escape vs Rafael Mendes', 'https://www.youtube.com/watch?v=EudmabSkJzg'),
+(24, 'Clark Gracie, Keenan Cornelius', 'ADCC 2013 - Clark Gracie vs Keenan Cornelius. kneebar! toehold! leg drag!', 'https://www.youtube.com/watch?v=YNGyq8tWZnY'),
+(25, 'Clark Gracie', 'Clark Gracie: The Omoplata Game', 'https://docs.google.com/document/d/1XRnXkQbb6WrssYF6EssWwPkuVcX2VklcT6RpkQR09VA/edit#heading=h.3rdq5m7kcugg'),
+(26, 'Claudio Calasans, Leandro Lo', 'BJJ Scout: Lo v Calasans Copa Podio Breakdown Preview Part 1', 'https://www.youtube.com/watch?v=NUtCJXBTccI'),
+(27, 'Claudio Calasans, Leandro Lo', 'BJJ Scout: Lo v Calasans Copa Podio Breakdown Preview Part 2 (+ some extra Lo studies)', 'https://www.youtube.com/watch?v=BHV2LOkJuhs'),
+(28, 'Dean Lister', 'Dean Lister Highlight (by movement)', 'https://www.youtube.com/watch?v=Aq0w_iOtLuI'),
+(29, 'Demian Maia', 'Analyzing the grappling game of Demian Maia', 'http://www.mixedmartialarts.com/news/Analyzing-the-grappling-game-of-Demian-Maia-439174'),
+(30, 'Dominiyka Obelenyte', 'Dominyka Obelenyte Arm Traps Part 1: Trapping Guards and Omoplatas', 'https://docs.google.com/document/d/1XdxNEWT363kGR-eSuwgSqtEZyV16eWynOcUhAkkGJI0/edit'),
+(31, 'Dominiyka Obelenyte', 'Dominyka Obelenyte Arm Traps Part 2: Arm Traps from the Top', 'https://docs.google.com/document/d/1-taLFbs3Zh-MVRATKK2iUJwX9FC6RQgbvAx-8FslMyk/edit'),
+(32, 'Eddie Cummings', 'Eddie Cummings game breakdown', 'https://www.youtube.com/watch?v=CpJUEYePhpo'),
+(33, 'Eddie Cummings', 'The Unique Leg Lock Entry of Eddie Cummings [wrestlejitsu]', 'https://www.youtube.com/watch?v=kq4j96BEqGI'),
+(34, 'Eddie Cummings', 'Eddie Cummings Leg Lock Entry to Saddle Breakdown', 'https://www.youtube.com/watch?v=frNBDL5Gs14'),
+(35, 'Eddie Cummings', 'Eddie Cummings Butterfly Guard to Saddle Entry Breakdown', 'https://www.youtube.com/watch?v=LFwCMp3ZULs'),
+(36, 'Eddie Cummings', 'Eddie Cummings Hand Fighting Breakdown', 'https://www.youtube.com/watch?v=_dypSe6FS0I'),
+(37, 'Eddie Cummings', 'Eddie Cummings vs Nathan Orchard Breakdown', 'https://www.youtube.com/watch?v=QNQm4mq0Ezk'),
+(38, 'Eddie Cummings', 'Eddie Cummings vs Ruben Alvarez Breakdown', 'https://www.youtube.com/watch?v=a2GG5n0HUeQ'),
+(39, 'Eddie Cummings', 'Eddie Cummings vs Reilly Bodycomb Breakdown', 'https://www.youtube.com/watch?v=esnzyyGKf_0'),
+(40, 'Eddie Cummings', 'Eddie Cummings: Finishing the Heel Hook', 'https://www.youtube.com/watch?v=xPN7XhDVgho'),
+(41, 'Eddie Cummings', 'Mansher Khera vs Eddie Cummings: Defensive Guard [Photo Breakdown]', 'http://imgur.com/a/70nMS'),
+(42, 'Erberth Santos', 'The Brutal Judo of Erberth Santos', 'http://www.flograppling.com/article/36124-the-brutal-judo-of-erberth-santos'),
+(43, 'Gabriel Moraes', 'Ostap Analysis - Gabriel Moraes reverse half guard back take', 'https://www.youtube.com/watch?v=3wce30qTXLM'),
+(44, 'Garry Tonon', 'BJJ Scout: Garry Tonon Study (Updated post Metamoris 4)', 'https://www.youtube.com/watch?v=Ko5481Tyc58'),
+(45, 'Garry Tonon', 'Garry Tonon - Dummy Sweep Breakdown', 'https://www.youtube.com/watch?v=ymtRMD3y1L8'),
+(46, 'Garry Tonon', 'Preview & Prediction: Garry Tonon v Imanari Polaris 2- Leglock War', 'http://www.bjjee.com/articles/preview-prediction-garry-tonon-v-imanari-polaris-2-leglock-war/'),
+(47, 'Geo Martinez, Richie Martinez', 'BJJ Scout: Positional Studies - The Japanese Necktie (Ft Richie & Geo Martinez)', 'https://www.youtube.com/watch?v=CRFoBZUL8r4'),
+(48, 'Guilherme Mendes', 'Guilherme Mendes: It''s Science', 'https://www.youtube.com/watch?v=5ZtTRrBPDOA'),
+(49, 'Guilherme Mendes', 'Ostap Analysis - Guilherme Mendes stack pass attempt vs Carlos Holanda', 'https://www.youtube.com/watch?v=10njx00Z86w'),
+(50, 'Guilherme Mendes', 'Pressure: On top with Guilherme Mendes', 'https://web.archive.org/web/20140916154915/http://thejiujitsulab.wordpress.com/2013/01/07/pressure-on-top-with-guilherme-mendes/#more-1717'),
+(51, 'Jackson Sousa', 'Jackson Souza crazy armdrag counter vs James Puopolo at Five Grappling', 'https://www.youtube.com/watch?v=hQt94MEMD8k'),
+(52, 'Jackson Sousa, Keenan Cornelius', 'Rivalry Report: Keenan Cornelius vs. Jackson Souza', 'https://web.archive.org/web/20140826113103/http://thejiujitsulab.wordpress.com/2014/04/20/rivalry-report-keenan-cornelius-vs-jackson-souza/#more-1793'),
+(53, 'James Puopolo', 'puopolo test 2', 'https://www.youtube.com/watch?v=Sd60dBeB4ME'),
+(54, 'Jeff Glover, Ryan Hall', 'Hall vs Glover - A Duel of Two Marcesters (Darce & Defence Breakdown)', 'https://www.youtube.com/watch?v=loc9DExpExc'),
+(55, 'Joao Miyao', 'ADCC 2013 - Joao Miyao 5050 entry and heelhook', 'https://www.youtube.com/watch?v=3WumEOTdojg'),
+(56, 'Joao Miyao', 'Joao Miyao - 5050, crab ride, back climb', 'https://www.youtube.com/watch?v=9O4aHAm-rDE'),
+(57, 'Joao Miyao', 'Joao Miyao - 1 leg x back take attempt', 'https://www.youtube.com/watch?v=12ieBwXwCCw'),
+(58, 'Joao Miyao', 'ADCC 2013 Breakdown - Joao Miyao berimbolo shoulder roll', 'https://www.youtube.com/watch?v=NjeqXzSNwJA'),
+(59, 'Joao Miyao', 'Ostap Analysis - Ostap vs Joao Miyao, Worlds 2012', 'https://www.youtube.com/watch?v=30-2Wi80JjI'),
+(60, 'Joao Miyao', 'ADCC Analysis - Joao Miyao''s berimbolo attacks vs Justin Rader''s defense', 'https://www.youtube.com/watch?v=fkGgAN0ZG0I'),
+(61, 'Joao Miyao', 'João Miyao Crab Ride Position Submission Grappling No GI', 'https://www.youtube.com/watch?v=H_3U2A-H948'),
+(62, 'Joao Miyao/Garry Tonon', 'Garry Tonon vs Joao Miyao 2 long pre fight highlight', 'https://www.youtube.com/watch?v=ktQ3UcwA7h4'),
+(63, 'JT Torres', 'JT Torres DLR X guard sweep', 'https://www.youtube.com/watch?v=grUm3QOJzbA'),
+(64, 'Keenan Cornelius', 'Keenan Cornelius: Comprehensive Guard Breakdown', 'https://www.youtube.com/watch?v=8UoXgYHMm1k'),
+(65, 'Keenan Cornelius', 'Keenan Cornelius: In Depth Analysis - Part 1', 'https://www.youtube.com/watch?v=b0DDMu3Rv1g'),
+(66, 'Keenan Cornelius', 'Keenan Cornelius: In Depth Analysis - Part 2', 'https://www.youtube.com/watch?v=7ZJUi_5w_kg'),
+(67, 'Keenan Cornelius', 'Keenan Cornelius: In Depth Analysis - Part 3', 'https://www.youtube.com/watch?v=2ZsIcWQ8Wk0'),
+(68, 'Keenan Cornelius', 'Keenan Cornelius: In Depth Analysis - Part 4', 'https://www.youtube.com/watch?v=jtBAL_dKiDs'),
+(69, 'Keenan Cornelius', 'Lapel-Spider-Guard Analysis, The Roll from Keenan Cornelius', 'https://www.youtube.com/watch?v=kPsQeQAExn8'),
+(70, 'Keenan Cornelius', 'Keenan Cornelius Study: Spider-Scissor Sweep and the DLR+Spider position', 'https://www.youtube.com/watch?v=SDJVwESYI8U'),
+(71, 'Keenan Cornelius', 'ADCC 2013 - Keenan Cornelius surprise butterfly sweep vs Romulo Barral', 'https://www.youtube.com/watch?v=0nSEiTCCfmM'),
+(72, 'Keenan Cornelius', 'Keenan Cornelius passing, easy as 1-2-3 in ADCC 2013', 'https://www.youtube.com/watch?v=ahOwsSvHNuc'),
+(73, 'Keenan Cornelius, Leandro Lo', 'BJJ Scout: Match Studies - Leandro Lo v Keenan Cornelius - Worm Guard vs Active Posting', 'https://www.youtube.com/watch?v=4uCVhOZULLo'),
+(74, 'Keenan Cornelius, Leandro Lo', 'BJJ Scout: Keenan vs Lo (active posting)', 'https://www.youtube.com/watch?v=8uh1teuLmHU'),
+(75, 'Keenan Cornelius', 'BJJ Scout: Keenan Cornelius Guard Study - The Worm Guard', 'https://www.youtube.com/watch?v=gEWO8PxSXuU'),
+(76, 'Kron Gracie', 'The Attacks Of Kron Gracie: The Three Prong Approach', 'http://www.innerbjj.com/2014/01/the-attacks-of-kron-gracie-three-prong.html'),
+(77, 'Kron Gracie', 'Kron Collar Grip guard', 'https://www.youtube.com/watch?v=FP-qEk83DdQ'),
+(78, 'Kron Gracie', 'The Curious Case Of Kron Gracie', 'https://www.youtube.com/watch?v=GGtAMguSum4'),
+(79, 'Kron Gracie', 'It''s Science: Kron Gracie', 'https://www.youtube.com/watch?v=SpyLitCZULo'),
+(80, 'Leandro Lo', 'Leandro Lo Guard Breakdown', 'https://www.youtube.com/watch?v=uZP4KAtwvxg'),
+(81, 'Leandro Lo', 'Leandro Lo Study: the single-x-guard', 'https://www.youtube.com/watch?v=IdyNwzVFc78'),
+(82, 'Leandro Lo', 'Leandro Lo: Guard Recomposing and an X-Guard Entry', 'https://www.youtube.com/watch?v=K-J4iK8hPRY'),
+(83, 'Leandro Lo', 'Leandro Lo System Study: Passing', 'https://www.youtube.com/watch?v=81nbDDUOxv8'),
+(84, 'Leandro Lo', 'BJJ Scout: Leandro Lo Knee Slide Study Part 1 - Active Posting', 'https://www.youtube.com/watch?v=1liU6ZxaziI'),
+(85, 'Leandro Lo', 'BJJ Scout: Leandro Lo Knee Slide Study Part 2 - the Face Crank', 'https://www.youtube.com/watch?v=6T6afZ4dq0U'),
+(86, 'Leandro Lo', 'BJJ Scout: Leandro Lo''s Toreando Pass Study', 'https://www.youtube.com/watch?v=vF4J4bdagXE'),
+(87, 'Leandro Lo', 'BJJ Scout: Leandro Lo''s DLR Counters', 'https://www.youtube.com/watch?v=wbkKiWIHZvg'),
+(88, 'Leandro Lo', 'BJJ Scout: Scouting Leandro Lo''s Top Game', 'https://www.youtube.com/watch?v=PPc448mGWRc'),
+(89, 'Leandro Lo', 'BJJ Scout: Leandro Lo Guard Study Part 1 - DLR/Spider Hybrid Guard', 'https://www.youtube.com/watch?v=x6Yaos8lbQI'),
+(90, 'Leandro Lo', 'BJJ Scout: Leandro Lo Guard Study Part 2 - Primary Sweeps and Counters', 'https://www.youtube.com/watch?v=jzDHkoZeO8A'),
+(91, 'Leandro Lo', 'Leandro Lo Guard Study Part 1: Collar Grip Guard by Espen Mathiesen', 'https://www.youtube.com/watch?v=r_qKD5wP39g'),
+(92, 'Leandro Lo', 'Leandro Lo Guard Study Part 2: De La Riva Guard by Espen Mathiesen', 'https://www.youtube.com/watch?v=67Knn6SsnfE'),
+(93, 'Leandro Lo', 'Ostap Analysis - Leandro Lo lapel DLR counter vs Nivaldo Lima', 'https://www.youtube.com/watch?v=9O1ibf3zGig'),
+(94, 'Leonardo Vieira', 'It’s Science – Leo Vieira', 'http://bishopbjj.com/2016/03/07/its-science-leo-vieira/'),
+(95, 'Lucas Leite', 'Lucas Leite Half Guard – Part 1: Far Hook Control Study', 'https://www.youtube.com/watch?v=dy0YIB2_A1Q'),
+(96, 'Lucas Leite', 'Lucas Leite Half Guard - Part 2: Inside vs Outside Attacks Study', 'https://www.youtube.com/watch?v=RItL8R9Mtqw'),
+(97, 'Lucas Lepri', 'Ostap Analysis - Lucas Lepri hip float pass attempt', 'https://www.youtube.com/watch?v=hAUHIE5E8CQ'),
+(98, 'Lucas Lepri', 'Ostap Analysis - Lucas Lepri knee cut combo pass vs Roberto Satoshi', 'https://www.youtube.com/watch?v=nhXDrlschcs'),
+(99, 'Lucas Lepri', 'Lucas Lepri vs Berimbolo Analysis', 'https://www.youtube.com/watch?v=rQN7-JCfsfM'),
+(100, 'Lucio Rodrigues', 'Ostap Analysis - Lucio Lagarto 5050 sequence vs Rafael Lovato Jr', 'https://www.youtube.com/watch?v=vGaLcpEJBpE'),
+(101, 'Luiz Panza', 'Luiz Panza inversions and foot locks', 'https://www.youtube.com/watch?v=P3ljQZEgJ8Y'),
+(102, 'Luiza Monteiro', 'Ostap Analysis - Luiza Monteiro shuck and torreando pass vs Bia Mesquita', 'https://www.youtube.com/watch?v=aflVPD3pSdM'),
+(103, 'Mackenzie Dern', 'Mackenzie Dern americana reversal', 'https://www.youtube.com/watch?v=oLm1YvkbwlM'),
+(104, 'Mahamed Aly', 'Watch Mahamed Aly Casually Go 11-0 Against Jared Dopp At The Houston Open', 'http://www.flograppling.com/article/39802-watch-mahamed-aly-casually-go-11-0-against-jared-dopp-at-the-houston-open'),
+(105, 'Marcelo Garcia', 'It''s Science: Marcelo Garcia', 'https://www.youtube.com/watch?v=M5OVAUbMfIk'),
+(106, 'Marcelo Garcia', 'Marcelo Garcia’s Single Leg X-Guard Breakdown and Analysis', 'http://danofearth.com/2014/04/06/marcelo-garcias-single-leg-x-guard-breakdown-and-analysis/'),
+(107, 'Marcelo Garcia', 'Marcelo Garcia half guard top concept', 'https://www.youtube.com/watch?v=b4Odnkis_xo'),
+(108, 'Marcelo Garcia', 'Breakdown of Marcelo Garcia’s side control escape principles', 'http://bjjpressure.com/breakdown-of-marcelo-garcias-side-control-escape-principles/'),
+(109, 'Marcio Andre, Isaac Doederlein', 'Ostap Analysis - Guard passing battle, Marcio Andre vs Isaac Deoderlein', 'https://www.youtube.com/watch?v=l_E4Cq3Pq64'),
+(110, 'Marcio Andre', 'ADCC 2013 - Marcio Andre turtle defense vs Cobrinha', 'https://www.youtube.com/watch?v=8aFIy36oSc0'),
+(111, 'Marcio Andre', 'ADCC 2013 - Marcio Andre pass attempt vs Cobrinha', 'https://www.youtube.com/watch?v=anb0A0h-qo0'),
+(112, 'Marcus Almeida', 'Marcus Buchecha dominant top transitions to the back vs Cyborg at ADCC 2013', 'https://www.youtube.com/watch?v=EHQBQwiBmgo'),
+(113, 'Marcus Almeida/Rodolfo Vieira', 'BJJ Scout: Positional Studies - Crossface Counters (Rodolfo v Buchecha)', 'https://www.youtube.com/watch?v=tpGEI4P8MS8'),
+(114, 'Michael Liera Junior', 'In class Analysis: Michael Liera Jr - Pans 2014', 'https://www.youtube.com/watch?v=Hr1IaUAFV5E'),
+(115, 'Michelle Nicolini', 'BJJ Scout: Michelle Nicolini Guard Study Part 1: Shin-on-Shin Sit up Sweep', 'https://www.youtube.com/watch?v=OmdjP-ABV_M'),
+(116, 'Michelle Nicolini', 'BJJ Scout: Michelle Nicolini Guard Study Part 2: Shin/Spider Lever', 'https://www.youtube.com/watch?v=tamHDWxSt4k'),
+(117, 'Murilo Santana', 'BJJ Scout: Murilo Santana Passing Study Part 1 - Stacks and Over Unders', 'https://www.youtube.com/watch?v=wujuSIjshSw'),
+(118, 'Murilo Santana', 'BJJ Scout: Murilo Santana Passing Study Part 2 - Pressure Pass Chains', 'https://www.youtube.com/watch?v=rAWqGfDm0x4'),
+(119, 'Murilo Santana, Keenan Cornelius', 'BJJ Scout: Match Studies - Murilo Santana vs Keenan Cornelius', 'https://www.youtube.com/watch?v=lg_6EOs_1nE'),
+(120, 'Murilo Santana', 'Murilo Santana Guard Passing analysis', 'https://www.youtube.com/watch?v=VVt54LHhm6w'),
+(121, 'Murilo Santana', 'Ostap BJJ Analysis - Murilo Santana smashing z guard vs Felipe Pena', 'https://www.youtube.com/watch?v=aZEBlU3sXzs'),
+(122, 'Osvaldo Moizinho', 'Osvaldo Queixinho leg drag defense vs Rafael Mendes', 'https://www.youtube.com/watch?v=CZnXjwQmK3s'),
+(123, 'Otavio Sousa', 'BJJ Video Analysis - Otavio Sousa omoplata attack vs Lucas Lepri', 'https://www.youtube.com/watch?v=sWFPlWjWGUY'),
+(124, 'Otavio Sousa, Rubens Charles, Rodolfo Vieira', 'BJJ Scout: Positional Studies - Sit Up Sweeps (Cobrinha, Otavio Sousa, Rodolfo Vieira)', 'https://www.youtube.com/watch?v=hMrTXSjaWTE'),
+(125, 'Pablo Popovitch', 'Pablo Popovitch - Armdrag to takedown', 'https://www.youtube.com/watch?v=J75p2QY5oPs'),
+(126, 'Paulo/Joao Miyao', 'The Miyao Brothers In 2015 - Part One - Evolution of Guard ', 'https://www.youtube.com/watch?v=wJaGv7vXBJM'),
+(127, 'Paulo/Joao Miyao', 'The Miyao Brothers In 2015 - Part Two - Passing Strategy ', 'https://www.youtube.com/watch?v=EWTtcuhI99s'),
+(128, 'Paulo/Joao Miyao', 'The Miyao Brothers In 2015 - Part Three - Greatest Rivalries', 'https://www.youtube.com/watch?v=neVNR_HWaGM'),
+(129, 'Paulo/Joao Miyao', 'The Miyao Brothers In 2015 - Part Four - Differences Between Paulo and Joao', 'https://www.youtube.com/watch?v=CPQSkL_4NBg'),
+(130, 'Paulo/Joao Miyao', 'Miyao Bros Study: Berimbolo Part 1 by Espen Mathiesen', 'https://www.youtube.com/watch?v=HIyHQZOv8UI'),
+(131, 'Paulo/Joao Miyao', 'Miyao Bros Study: Berimbolo Part 2 Common Counters', 'https://www.youtube.com/watch?v=SqUqf9R4T8w'),
+(132, 'Paulo/Joao Miyao', 'How to Berimbolo 1: Paulo and Joao Miyao vs Standing Opponents Compilation and Highlights', 'https://www.youtube.com/watch?v=yQYurkBSK6Y'),
+(133, 'Paulo/Joao Miyao', 'How to Berimbolo 2: Paulo and Joao Miyao Double Sit Compilation and Highlights', 'https://www.youtube.com/watch?v=dooHY2nBoGs'),
+(134, 'Paulo/Joao Miyao', 'How to Berimbolo 3: Paulo and Joao Miyao Inside Berimbolo Compilation and Highlights', 'https://www.youtube.com/watch?v=_wkfUvaOSGw'),
+(135, 'Paulo/Joao Miyao', 'Fix Your Jiu Jitsu - Ep 9 - Get To Your Position | Miyao Brothers, Berimbolo Backtake, Leg Drag', 'https://www.youtube.com/watch?v=XFx0a2FZ7bQ'),
+(136, 'Paulo/Joao Miyao', 'Jiu Jitsu Science: Miyaos', 'http://bishopbjj.com/2015/08/27/jiu-jitsu-science-miyaos/'),
+(137, 'Paulo/Joao Miyao', 'Miyao Bros Double under defence + counter', 'https://www.youtube.com/watch?v=W4uazKRTVFM'),
+(138, 'Paulo Miyao', 'Ostap Analysis - Paulo Miyao calf slicer bolo', 'https://www.youtube.com/watch?v=Y9tdByn7478'),
+(139, 'Paulo Miyao', 'Paulo Miyao 1LX back step pass to berimbolo', 'https://www.youtube.com/watch?v=PyL_rC-245Q'),
+(140, 'Paulo Miyao', 'Paulo Miyao Berimbolo and Double Under Guard Recovery', 'https://www.youtube.com/watch?v=VPcOWQNcJG0'),
+(141, 'Paulo Miyao', 'Paulo Miyao vs Gianni Grippo NY Open 2015: Guard Pass Analysis', 'https://vimeo.com/124835139'),
+(142, 'Rafael Barbosa', 'Ostap Analysis - Rafael Formiga berimbolo defense', 'https://www.youtube.com/watch?v=8WnDnr7bYk4'),
+(143, 'Rafa Mendes', 'EVEN BETTER! - The Grapplers Guide Competitor Analysis - Rafael Mendes Guard Passing Study', 'https://www.youtube.com/watch?v=pKKGixMOlkw'),
+(144, 'Rafa Mendes', 'Europeans 2014 Analysis - Rafael Mendes head scissor pass vs Paulo Miyao', 'https://www.youtube.com/watch?v=aswgy2vo07E'),
+(145, 'Rafa Mendes', 'ADCC 2013 - Rafael Mendes stack passing Joao Miyao', 'https://www.youtube.com/watch?v=ecJaPgQ-er0'),
+(146, 'Rafa Mendes', 'ADCC 2013 Breakdown - Rafael Mendes 5050 escape, leaping back take vs Cobrinha Charles', 'https://www.youtube.com/watch?v=O-bD0rFL07A'),
+(147, 'Rafa Mendes', 'Rafael Mendes It''s Science', 'https://www.youtube.com/watch?v=tDiuKxjurwo'),
+(148, 'Rafa Mendes', 'Rafael Mendes Legdrag', 'https://www.youtube.com/watch?v=gC3diliZPdE'),
+(149, 'Rafa Mendes ', 'Rafael Mendes inverting calf slicer vs Cobrinha', 'https://www.youtube.com/watch?v=A84T6fonei0'),
+(150, 'Rafa Mendes/Rodolfo Vieira', 'Passing the Flexible Guard with Rodolfo Vieira and Rafael Mendes', 'https://www.youtube.com/watch?v=rv1pnEIMxQE'),
+(151, 'Rafa Mendes', 'Rafael Mendes: Berimbolo Evolution', 'https://web.archive.org/web/20120928005020/http://thejiujitsulab.wordpress.com/2012/06/18/berimbolo_evolution/#more-1577'),
+(152, 'Rafael Lovato Jr.', 'Ostap Analysis - Rafael Lovato passing deep half guard at 2014 Pan', 'https://www.youtube.com/watch?v=w6NMMb2kqfI'),
+(153, 'Renzo Gracie, Kazushi Sakuraba', 'BJJ SCOUT: Kazushi Sakuraba v Renzo Gracie Metamoris 5 Preview', 'https://www.youtube.com/watch?v=txPQMKC5Y-Q'),
+(154, 'Roberto Satoshi', 'TRIPOD SWEEP FROM REVERSE DE LA RIVA BY ROBERTO SATOSHI SOUZA', 'https://www.youtube.com/watch?v=-VhvYlF7NxA'),
+(155, 'Roberto Satoshi', 'OVERHEAD SWEEP BY ROBERTO SATOSHI', 'https://www.youtube.com/watch?v=ghbmTn5YRMg'),
+(156, 'Rodolfo Vieira', 'BJJ Scout: Rodolfo Vieira Takedown Study Part 1 - A Study of Planes', 'https://www.youtube.com/watch?v=GgkNZeoVSG0'),
+(157, 'Rodolfo Vieira', 'BJJ Scout: Rodolfo Vieira Takedown Study Part 2 - Grip Strategy and Leg Grabs', 'https://www.youtube.com/watch?v=j8EusEhPqNY'),
+(158, 'Rodolfo Vieira', 'BJJ Scout: Rodolfo Vieira''s Guard Passing Study Part 1 - Pressure Passing', 'https://www.youtube.com/watch?v=nBSbfTogCO4'),
+(159, 'Rodolfo Vieira', 'BJJ Scout: Rodolfo Vieira''s Guard Passing Study Part 2 - Weaves', 'https://www.youtube.com/watch?v=dDuFPuuwHKM'),
+(160, 'Rodolfo Vieira', 'BJJ Scout: Rodolfo Vieira''s Guard Passing Study Part 3 - Weaves Continued', 'https://www.youtube.com/watch?v=iqJ9W2EXzxk'),
+(161, 'Rodolfo Vieira', 'Rodolfo Vieira: The Passing Machine - Part I', 'https://docs.google.com/document/d/1bIxaI8VreJysB5JQ9v7M7vNHbdL_RYC8VM1akgbwjl0/edit'),
+(162, 'Rodolfo Vieira', 'Rodolfo Vieira: The Passing Machine - Part II', 'https://docs.google.com/document/d/1X-ORtMK_saFooYAnO5ZJhHihRBfthHrnvtKeQ-UFEec/edit'),
+(163, 'Rodolfo Vieira', 'Ostap Analysis - Rodolfo Vieira torreando switch vs Andre Galvao', 'https://www.youtube.com/watch?v=ecWrR6PQy_g'),
+(164, 'Roger Gracie', 'ANALYSIS OF ROGER GRACIE VS COMPRIDO', 'http://www.athorganics.com/blogs/news/37748357-analysis-of-roger-gracie-vs-comprido'),
+(165, 'Roger Gracie', 'Side Control - L1 - Roger Gracie Side Control to Mount Analysis', 'https://www.youtube.com/watch?v=drR7qaSbak0'),
+(166, 'Roger Gracie', 'Mount - L1 - Roger Gracie Cross Choke - Half Guard/Quarter Guard Entry', 'https://www.youtube.com/watch?v=XY0021Xw3xo'),
+(167, 'Roger Gracie', 'Mount - L2 - Roger Gracie Cross Choke - Side Control Entry', 'https://www.youtube.com/watch?v=AMxekpBSeI8'),
+(168, 'Roger Gracie', 'Passing - L5 - Roger Gracie Half Guard Passes', 'https://www.youtube.com/watch?v=NRVxcdnMyWc'),
+(169, 'Roger Gracie', 'Passing - L6 - Butterfly Guard (Roger Gracie C. 2006)', 'https://www.youtube.com/watch?v=LIJF8Fy3KFo'),
+(170, 'Roger Gracie', 'Guard - L6 - Closed Guard Sitting - Taking Back Details (Roger Gracie breakdown)', 'https://www.youtube.com/watch?v=OKhSYl88ZmI'),
+(171, 'Roger Gracie', 'Guard - L4 - Closed Guard Sitting - Drag arm across body to take the back', 'https://www.youtube.com/watch?v=lCNAblVsST0'),
+(172, 'Roger Gracie', 'Guard - L5 - Closed Guard Sitting - Taking the Back', 'https://www.youtube.com/watch?v=EV9Xcy2cZqY'),
+(173, 'Roger Gracie', 'Guard - L3 - Closed Guard Standing - Disrupting the Standing Passers Game', 'https://www.youtube.com/watch?v=JGFsRCcXdvE'),
+(174, 'Roger Gracie', 'Roger Gracie guard study', 'https://www.youtube.com/watch?v=X8Qhl-jmeNs'),
+(175, 'Roger Gracie', 'Roger Gracie''s Closed Guard Breakdown', 'https://www.youtube.com/watch?v=MDJj6cQFiYc'),
+(176, 'Romulo Barral', 'Romulo Barral Science and Statistics', 'https://www.youtube.com/watch?v=HGPvcT0NjNA'),
+(177, 'Rousimar Palhares, Garry Tonon', 'Garry Tonon vs Toquinho Analysis', 'http://www.bjjheroes.com/bjj-news/garry-tonon-vs-toquinho-analysis'),
+(178, 'Rubens Charles', 'ADCC 2013 - Cobrinha leg drag and side switch vs Marcio Andre', 'https://www.youtube.com/watch?v=KWlzWcFx1rg'),
+(179, 'Rubens Charles', 'ADCC 2013 - Cobrinha passing 1LX and inverted guard vs Marcio Andre', 'https://www.youtube.com/watch?v=QzrwTTgM3gA'),
+(180, 'Rubens Charles', 'It''s Science: Cobrinha', 'https://www.youtube.com/watch?v=3-qsrivMmew'),
+(181, 'Ryan Hall', 'Ryan Hall - Taking the Back', 'https://www.youtube.com/watch?v=E3kStk3Q7GU'),
+(182, 'Sergio Moraes', 'BJJ To MMA: Sergio Moraes Breakdown UFC 163', 'http://www.innerbjj.com/2013/08/bjj-to-mma-sergio-moraes-breakdown-ufc.html'),
+(183, 'Shinya Aoki', 'Shinya Aoki Guard Passing Study ', 'https://www.youtube.com/watch?v=JvgUfp8gtd8'),
+(184, 'Zak Maxwell', 'Zak Maxwell Collar&Sleeve grip Omoplata study', 'https://www.youtube.com/watch?v=K5py3QwAR3M');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Bjj Weights`
+--
+
+CREATE TABLE IF NOT EXISTS `Bjj Weights` (
+  `Athlete` text NOT NULL,
+  `Weight Class` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Bjj Weights`
+--
+
+INSERT INTO `Bjj Weights` (`Athlete`, `Weight Class`) VALUES
+('AJ Agazarm', 'Light'),
+('Alexander Trans', 'Ultra Heavy'),
+('Andre Galvao', 'Medium Heavy'),
+('Antonio Rodrigo Nogueira', 'Ultra Heavy'),
+('Ary Farias', 'Light Feather'),
+('Augusto Mendes', 'Light'),
+('Baret Yoshida', 'Light'),
+('BJ Penn', 'Feather'),
+('Braulio Estima', 'Medium Heavy'),
+('Bruno Malfacine', 'Rooster'),
+('Clark Gracie', 'Middle'),
+('Dean Lister', 'Heavy'),
+('Dominiyka Obelenyte', 'Heavy'),
+('Eddie Cummings', 'Light Feather'),
+('Erberth Santos', 'Heavy'),
+('Gabriel Moraes', 'Rooster'),
+('Garry Tonon', 'Light'),
+('Guilherme Mendes', 'Light Feather'),
+('Jackson Sousa', 'Heavy'),
+('James Puopolo', 'Super Heavy'),
+('Joao Miyao', 'Light Feather'),
+('JT Torres', 'Light'),
+('Keenan Cornelius', 'Medium Heavy'),
+('Kron Gracie', 'Middle'),
+('Leandro Lo', 'Middl'),
+('Leonardo Vieira', 'Light'),
+('Lucas Leite', 'Heavy'),
+('Lucas Lepri', 'Light'),
+('Lucio Rodrigues', 'Heavy'),
+('Luiz Panza', 'Super Heavy'),
+('Luiza Monteiro', 'Middle'),
+('Mahamed Aly', 'Ultra Heavy'),
+('Marcelo Garcia', 'Middle'),
+('Marcio Andre', 'Feather'),
+('Marcus Almeida', 'Super Heavy'),
+('Michael Liera Junior', 'Light'),
+('Michelle Nicolini', 'Light Feather'),
+('Murilo Santana', 'Middle'),
+('Osvaldo Moizinho', 'Feather'),
+('Otavio Sousa', 'Middle'),
+('Pablo Popovitch', 'Middle'),
+('Paulo Miyao', 'Light Feather'),
+('Rafael Barbosa', 'Light'),
+('Rafa Mendes', 'Feather'),
+('Rafael Lovato Jr.', 'Heavy'),
+('Roberto Satoshi', 'Light'),
+('Rodolfo Vieira', 'Heavy'),
+('Roger Gracie', 'Super Heavy'),
+('Romulo Barral', 'Medium Heavy'),
+('Rubens Charles', 'Feather'),
+('Ryan Hall', 'Feather'),
+('Sergio Moraes', 'Middle'),
+('Shinya Aoki', 'Light'),
+('Zak Maxwell', 'Feather');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
